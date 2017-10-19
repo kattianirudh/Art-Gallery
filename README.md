@@ -1,5 +1,5 @@
 # Art Gallery
-## DBMS Mini Project
+#### DBMS Mini Project
 
 using:
 
