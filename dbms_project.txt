@@ -1,0 +1,70 @@
+______
+TABLES
+______
+
+ART(art_id, art_title, artist, art_type, art_price, seller_id)
+ART_DESCRIPTION(art_id, description, age, photo)
+CUSTOMER(cust_id, cust_password, cust_name, cust_phone, cust_address)
+SELLER(seller_id, seller_name, seller_phone, seller_address)
+PURCHASES(cust_id, art_id, art_name, artist, art_price, seller_id)
+
+_______________________________
+
+_________
+FRONT END
+_________
+
+login / sign up > home page
+
+home page
+ |-gallery (default)
+ |-our sellers
+ |-your orders
+ |-about us
+
+_______________________________
+
+_________
+THE PAGES
+_________
+
+
+Login page
+----------
+centered place to enter customerid and password
+
+
+Sign up page
+------------
+obtain Name, cutomerid, password, address, mobile no
+
+
+Gallery page
+------------
+slideshow (top 5 selling paintings)
+grid containing 6 art items, and 3 pages in that grid totalling 18 paintings
+
+
+Our Sellers
+-----------
+top sellers (top 3)
+seller descriptions (total 10) grid
+
+
+Your orders
+-----------
+show artid, price paid, artname, artist displayed as a list
+
+
+About us
+--------
+name of project author
+email
+description
+
+
+FOOTER (Footers, and tabs for all pages)
+------
+project author
+gallery name with copyright
+social media
