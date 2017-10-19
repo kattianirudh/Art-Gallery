@@ -1,0 +1,32 @@
+body {
+	background-image: url(../assets/loginbackground.jpg);
+	background-attachment: fixed;
+    background-position: center;
+	background-repeat: no-repeat;
+}
+div.login_box {
+    
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+    border-radius: 1.5em;
+    background-color: white;
+    padding: 2.5em;
+}
+div.login_box {
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+#login {
+    font-weight: bold;
+  color: #000000;
+}
+td {
+	text-align: center;
+}
+button.loginbutton {
+	margin-top: 1.5em;
+}
