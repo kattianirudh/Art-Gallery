@@ -29,3 +29,7 @@ td {
 button.loginbutton {
 	margin-top: 1.5em;
 }
+.credentials{
+    padding-bottom: 10px;
+    border-bottom-style: outset;
+}
