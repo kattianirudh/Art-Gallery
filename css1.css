@@ -1,0 +1,159 @@
+#searchbar{
+                
+    background-image: url("tooplate_top.png");
+    background-size:100%;
+    text-align:right;
+}
+#searchbar img{
+    padding:9px 0px 4px;
+}
+
+#search{
+    padding: ;  
+}
+
+body{
+    margin:0;
+                
+}
+#navbar{
+    background-image: url(tooplate_footer.png);
+    background-repeat: repeat-x;
+    margin:0; 
+}
+#navbar ul{
+   list-style-type: none;
+    margin:0;
+    padding:8px;
+}
+#navbar li{
+    display:inline;
+    font-size: 18px;
+    float:right;
+    padding:10px 25px;
+    align-content:space-around;
+    color:white
+    
+}
+#logo{
+    
+}
+.headersize{
+    width:950px;
+    margin:0 auto;
+    
+}
+#content1{
+    background-image: url(tooplate_mid.png);    
+    padding:30px 0px;
+}
+.inlineblock{
+    display:inline-block;
+    width:49%;
+    vertical-align: middle;
+}
+.inlineblock p{
+    font-style: italic;
+    color:rgba(189,185,185,0.81);
+}
+.inlineblock h2{
+    color:white;
+    font-weight: normal;
+}
+.content2{
+    background-color: silver;
+    padding:30px 0;
+    
+}
+.inlineblock2{
+    display:inline-block;
+    width:29%;
+    margin-bottom: 18px;
+    margin-right:35px;
+    
+}
+.arrange h4{
+    
+    display: inline-block;
+    font-weight: normal;
+    margin:0;
+    vertical-align: top;
+}
+.arrange img{
+    
+    display: inline-block;
+    width:15%;
+    margin-right: 8px;
+}
+.option1 p{
+    display: inline-block;
+    float: left;
+    font-weight:normal;
+    font-size:10px;
+    color:dimgrey;
+    margin-top:10px;
+    
+}
+.option1 span{
+    color:red;
+}
+.footer1{
+    background-image: url(tooplate_footer.png);
+    background-repeat: repeat-x;
+    width: 20%
+    height:250px;
+    margin-top:0px;
+    padding:35px;
+    
+}
+.lists ul{
+    list-style-type: none;
+    margin-top:0px;
+    margin-bottom:0px;
+    display: inline-block;
+    vertical-align: top;
+    width:20%;
+}
+.lists li p{
+    margin:6px;
+    margin-left: 0px;
+    color:rgba(206,200,194,0.57);
+    font-size: 12px;
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
+    display: inline-block;
+}
+.lists h5{
+    margin:0px;
+    color:white;
+    font-weight: normal;
+    font-size:15px; 
+}
+.lists .icons{
+    padding-left: 0px;
+    width:100%;
+    
+}
+.icons li{
+    display:inline-block;
+}
+
+.icons .li img{
+    width:25%;
+}
+.footer2{
+    color:#4A3429;
+    background-color:black;
+    text-align: center;
+    vertical-align: center;
+}
+.footer2 p{
+    margin:0px;
+    padding:10px;
+    font-size: 12px;
+}
+    
+.lists [href]{
+    color:white;
+}
+
