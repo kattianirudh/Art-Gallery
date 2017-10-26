@@ -11,21 +11,27 @@
 <body>
     <form method="post" action="login.php">
     	<div class="login_box text-center loginbox">
-                <h3 class="credentials">Enter Credentials</h3><br>
+                <h3 class="credentials">Sign Up</h3><br>
                 <table>
-                    <tr>
-                        <!-- <td>ID</td> -->
-                        <td><input class="form-control form-control-lg" type="text" name="username" placeholder="ID"></td>
+                	<tr>
+                        <td><input class="form-control form-control-lg" type="text" name="name" placeholder="Your Name"></td>
                     </tr>
                     <tr>
-                        <!-- <td>Password</td> -->
+                        <td><input class="form-control form-control-lg" type="email" name="email" placeholder="Email"></td>
+                    </tr>
+                    <tr>
                         <td><input class="form-control form-control-lg" type="password" name="password" placeholder="Password"></td>
                     </tr>
+                    <tr>
+                        <td><input class="form-control form-control-lg" type="tel" name="phone" placeholder="Phone"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="form-control form-control-lg" type="text" name="address" placeholder="Address"></td>
+                    </tr>
                 </table><br>
-                <button class="btn btn-secondary">Enter</button>
-                <hr>
-                <button type="submit" formaction="signup.html" class="btn btn-secondary" id="signup">Sign Up</button>
-       </div>
+                <button class="btn btn-secondary">Submit</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
+    	</div>
     </form>
 	<script type="text/javascript" src="style/bootstrap4/js/bootstrap.js"></script>
 </body>
