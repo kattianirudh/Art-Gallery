@@ -1,6 +1,42 @@
+/*@import url('https://fonts.googleapis.com/css?family=');*/
+
 #nav1 
 {
-    color: red; 
-    border-right: solid; 
-    padding-right: 1.2em;
+    color: #f39c12; 
+    /*color: #ffbb33;*/
+    /*border-right: solid; */
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+    /*font-family: 'Comfortaa', serif;*/
+    /*font-family: 'Forum', serif;*/
+    /*font-family: 'Gruppo', serif;*/
+    /*font-family: 'Lobster', serif;*/
+    font-family: 'Lobster Two', serif;
+    /*font-family: 'Megrim', serif;*/
+    /*font-family: 'Yeseva One', serif;*/
+    font-size: 2.2em;
 }
+
+.head1 {
+	/*color: #CC66FF;*/
+	/*color: #660066;*/
+	/*color: ;*/
+	/*color: ;*/
+	/*color: ;*/
+    /*font-family: 'Forum', serif;*/
+    /*font-family: 'Gruppo', serif;*/
+    /*font-family: 'Lobster', serif;*/
+    /*font-family: 'Lobster Two', serif;*/
+    /*font-family: 'Yeseva One', serif;*/
+    /*font-family: 'Bangers', serif;*/
+	/*font-family: 'Boogaloo', serif;*/
+	font-family: 'Cinzel Decorative', serif;
+	/*font-family: 'Cinzel Decorative Black', serif;*/
+	/*font-family: 'Playball', serif;*/
+	/*font-family: serif;*/
+}
+
+/*.artistname {
+	font-family: 'Cinzel Decorative Black', serif;
+}
+*/

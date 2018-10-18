@@ -1,0 +1,41 @@
+<?php
+    
+?>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Art Gallery</title>
+
+    <!-- Bootstrap CDN -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+
+    <!-- Local Bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="style/bootstrap4/css/bootstrap.css">
+    <!-- Custom Style for this page -->
+    <link rel="stylesheet" type="text/css" href="style/loginstyle.css">
+</head>
+
+<body>
+    <form method="post" action="login.php">
+    	<div class="login_box text-center loginbox">
+                <h3 class="credentials">Enter Credentials</h3><br>
+                <table>
+                    <tr>
+                        <!-- <td>ID</td> -->
+                        <td><input class="form-control form-control-lg" type="text" name="username" placeholder="ID"></td>
+                    </tr>
+                    <tr>
+                        <!-- <td>Password</td> -->
+                        <td><input class="form-control form-control-lg" type="password" name="password" placeholder="Password"></td>
+                    </tr>
+                </table><br>
+                <button class="btn btn-secondary">Enter</button>
+                <hr>
+                <button type="submit" formaction="signup.html" class="btn btn-secondary" id="signup">Sign Up</button>
+       </div>
+    </form>
+	<script type="text/javascript" src="style/bootstrap4/js/bootstrap.js"></script>
+</body>
+</html>
